@@ -1,0 +1,18 @@
+* {font-family: 'Montserrat', sans-serif;}
+
+ul {display: flex;}
+ ul {list-style: none;margin:0;padding: 0;} 
+
+a {color: white;text-decoration: none;font-weight: bold;padding: 10px 30px;}
+
+.homelink {margin-right: auto;}
+
+
+li a {
+    display:block;padding:10px 30px;text-align: center;
+}
+
+a:hover {background-color: white;color: #000;}
+
+h1{text-align: center;font-size: 50px;}
+.introtext{text-align: center;padding: 25px 200px 100px 200px; font-size: 20px;}
