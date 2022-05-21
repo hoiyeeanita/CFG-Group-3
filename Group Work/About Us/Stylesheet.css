@@ -1,0 +1,192 @@
+* {
+        font-family: 'Montserrat', sans-serif;
+}
+
+/* topbar styling */
+header {
+        display: flex;
+        justify-content: space-between;
+}
+
+.topbar-links {
+        padding-top: 10px;
+}
+
+.topbar-links a {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        color: white;
+}
+
+.topbar-links a:hover {
+        background-color: white;
+        color: #000;
+        font-weight: bold;
+        padding: 10px 30px;
+}
+
+@media screen and (max-width: 393px) {
+        .topbar-links a {
+          padding: 5px;
+        }
+      }
+      
+/*Other Styling*/
+
+.Img {
+        border-radius: 10px;
+}
+
+.footer {
+        padding: 20px;
+        color: white;
+        background-color: black;
+}
+
+body {
+        background-color: black;
+        color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+}
+
+.container {
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+        border-radius: 5px;
+        padding: 10px;
+}
+
+.container h2 {
+        color: black;
+        font-size: xx-large;
+        padding-top: 20px;
+        font-weight: bold
+}
+
+.column {
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+        border-radius: 10px;
+}
+
+input[type=text],
+select,
+textarea {
+        width: 95%;
+        padding: 12px;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-size: x-large;
+}
+
+input[type=submit] {
+        background-color: black;
+        color: white;
+        padding: 15px 75px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: large
+}
+
+input[type=submit]:hover {
+        background-color: white;
+        color: black;
+}
+
+input[type=submit]:active {
+        background-color: black;
+        color: white;
+        box-shadow: 0 5px grey;
+        transform: translateY(4px);
+}
+
+@media only screen and (min-width: 970px) {
+        .column2 {
+                display: flex;
+                flex: 1;
+                gap: 40px;
+        }
+
+        .myImg {
+                border-radius: 10px;
+                max-width: 50%;
+                transition: 0.3s;
+                cursor: pointer;
+        }
+
+        .myImg:hover {
+                transform: scaleX(-1);
+                opacity: 0.7;
+        }
+}
+
+
+@media only screen and (max-width: 969px) {
+        .column2 {
+                display: initial;
+        }
+
+        .myImg {
+                border-radius: 10px;
+                max-width: 100%;
+                transition: 0.3s;
+                cursor: pointer;
+        }
+
+        .myImg:hover {
+                transform: scaleX(-1);
+                opacity: 0.7;
+        }
+}
+
+.main {
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        color: black;
+        width: 100%;
+        border: 10px solid #f4f4f4;;
+}
+
+.main h2 {
+        font-size: xx-large;
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-left: 40px;
+        font-weight: bold
+}
+
+.main p {
+        font-size: large;
+        padding-left: 40px;
+        padding-right: 40px;
+}
+
+.button {
+        background-color: black;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: x-large;
+        cursor: pointer;
+}
+
+.button:hover {
+        background-color: white;
+        color: black;
+}
+
+.button:active {
+        background-color: black;
+        color: white;
+        box-shadow: 0 5px grey;
+        transform: translateY(4px);
+}

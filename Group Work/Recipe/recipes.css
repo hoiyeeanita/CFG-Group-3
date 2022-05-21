@@ -1,0 +1,160 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+/* topbar styling */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar-links {
+  padding-top: 10px;
+}
+
+.topbar-links a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.topbar-links a:hover {
+  background-color: white;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+@media screen and (max-width: 393px) {
+  .topbar-links a {
+    padding: 5px;
+  }
+}
+
+/* Hero styling */
+.hero {
+  text-align: center;
+}
+
+.hero-text {
+  width: 70%;
+  margin: auto;
+}
+.hero-text h2 {
+  font-weight: lighter;
+}
+
+.hero h1,
+h3 {
+  text-transform: uppercase;
+}
+
+/* grid styling */
+.horizontal-blocks,
+.four-horizontal-blocks {
+  display: flex;
+  margin-top: 20px;
+}
+
+.white-background {
+    display: flex;
+    padding-bottom: 1%;
+}
+
+.white-background p {
+    background-color: white;
+    color: black;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.center-block {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.four-center-block-left {
+  padding-left: 2%;
+  padding-right: 1%;
+}
+
+.four-center-block-right {
+  padding-left: 1%;
+  padding-right: 2%;
+}
+
+.horizontal-block div {
+    background-color: white;
+}
+
+.horizontal-block img {
+  max-width: 100%;
+}
+
+/* vertical block styling */
+.vertical-blocks {
+  display: flex;
+}
+.vertical-block-left,
+.vertical-block-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.vertical-block-left {
+  padding-right: 1%;
+}
+.vertical-block-right {
+  padding-left: 1%;
+}
+.vertical-block {
+  display: flex;
+  height: 300px;
+  padding-bottom: 2%;
+}
+.vertical-block img {
+  max-height: 100%;
+}
+.copy-left {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: white;
+  height: 100%;
+  display: flex;
+}
+.copy-left p {
+  background-color: white;
+  color: black;
+  margin: auto;
+}
+.copy-right {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: white;
+  height: 100%;
+  display: flex;
+}
+.copy-right p {
+  background-color: white;
+  color: black;
+  margin: auto;
+}
+
+/* Mobile Styling */
+
+@media screen and (max-width: 670px) {
+
+.vertical-blocks {
+    display: initial;
+}
+
+}
+
