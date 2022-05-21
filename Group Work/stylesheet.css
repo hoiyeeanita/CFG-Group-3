@@ -1,0 +1,259 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* topbar styling */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar-links {
+  padding-top: 10px;
+}
+
+.topbar-links a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.topbar-links a:hover {
+  background-color: white;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+@media screen and (max-width: 393px) {
+  .topbar-links a {
+    padding: 5px;
+  }
+}
+
+/* hero styling */
+
+.hero {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 500px;
+  background-image: url(./roasted-broccoli-steaks-tomato-butter-and-tapenade-FT-RECIPE0920.jpeg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-copy {
+  display: flex;
+  height: 500px;
+}
+
+.hero-copy div {
+  align-self: center;
+}
+
+/* other styling */
+
+#Img {
+  border-radius: 10px;
+}
+
+.footer {
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.newcom {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.newcom a {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+
+.newcom a:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+/* mobile styling for newcom */
+
+@media screen and (max-width: 684px) {
+  .newcom {
+    display: flex;
+    flex-direction: column;
+  }
+  }
+
+/* recipe highlight styling */
+
+.green {
+  display: flex;
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+  
+  .sent {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 50px;
+  }
+  
+  .green img {
+  width: 50%;
+  object-fit: contain;
+  }
+
+  .sent h2 {
+    text-transform: uppercase;
+  }
+
+  /* mobile styling for recipe highlight */
+
+  @media screen and (max-width: 767px){
+    .green {
+      flex-direction: column;
+    }
+
+    .sent {
+      padding-right: 0px;
+      text-align: center;
+    }
+    .green img {
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+
+/* FAQ Styling */
+
+.ask {
+  text-align: left;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.FAQ {
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.FAQ:focus {
+  outline: none;
+}
+
+.FAQ > div {
+  width: 90%;
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+details div {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  padding: 1.5em;
+}
+
+details div > * + * {
+  margin-top: 1.5em;
+}
+
+details + details {
+  margin-top: 0.5rem;
+}
+
+summary {
+  list-style: none;
+}
+
+summary {
+  border: 2px solid #fff;
+  padding: 0.75em 1em;
+  cursor: pointer;
+  position: relative;
+  padding-left: 1.75rem;
+}
+
+summary:before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0.75rem;
+  content: "▼";
+  width: 1.75rem;
+  height: 1.75rem;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+details[open] summary:before {
+  content: "▲";
+}
+
+@media only screen and (max-width: 767px) {
+  summary::before {
+    content: "▼";
+    color: #fff;
+  }
+  .recipe {
+    flex-direction: column;
+  }
+  .left {
+    padding-bottom: 20px;
+  }
+  .right {
+    padding-bottom: 20px;
+  }
+}
+
+/* recipe section styling */
+
+.week {
+  text-align: center;
+}
+.recipe {
+  display: flex;
+  gap: 20px;
+}
+.left,
+.right {
+  flex: 50%;
+}
+.left img,
+.right img {
+  width: 100%;
+}
+
+.left a,
+.right a {
+  background-color: black;
+  color: white;
+}

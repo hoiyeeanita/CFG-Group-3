@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" href="./Stylesheet.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800;900&display=swap');
+    </style>
+    <script src="./app2.js"></script>
+</head>
+
+<header>
+    <div class="logo">
+        <a href="../Homepage.html"><img src="../broc.png" alt="logo" width="50"></a>
+    </div>
+    <div class="topbar-links">
+        <a href="./About Us.html">About us</a>
+        <a href="../Recipe/Recipes_html.html">Recipes</a>
+        <a href="CHANGE THIS">Blog</a>
+    </div>
+</header>
+
+<body>
+
+<div class="column2">
+    
+    <img class="myImg" src="./img/broccoli-1974801.jpg" 
+        alt="BROC KITCHEN">
+    
+    <div class="main" style="flex-grow: 2">
+        <h2>ABOUT US</h2>
+        <p>
+       Welcome to BROC KITCHEN!! We love to share broccoli information such as the nutrients, recipes with you.</p>
+        <p>Feel free to contact us!</p>
+        <p><button class="button" onclick="myFunction()">CONTACT US</button></p>
+    </div>
+</div>
+<br>
+<div class="container" id="form">
+    <div style="text-align:center">
+        <h2>GET IN TOUCH</h2>
+        <form id="myForm">
+        <div class="column">
+            <input type="text" id="fname" name="firstname" 
+             placeholder="NAME">
+            <input type="text" id="mail" name="email" placeholder="EMAIL">
+            <textarea id="message" name="message" placeholder="MESSAGE" 
+            style="height: 472px"></textarea> 
+            <input type="submit" name="submit" onclick="show_alert();" value="SEND">
+        </form>
+        </div>
+    </div>    
+</div>
+<br>
+</body>
+
+
+
+<div class="footer">
+        <h4>© 2022, CodeFirstGirls</h4>
+</div>
+
+<footer>
+
+</footer>
+
+
+</html>
