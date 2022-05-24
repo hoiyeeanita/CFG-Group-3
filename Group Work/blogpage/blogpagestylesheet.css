@@ -1,0 +1,87 @@
+* {font-family: 'Montserrat', sans-serif;}
+/* topbar styling */
+header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .topbar-links {
+    padding-top: 10px;
+  }
+  
+  .topbar-links a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .topbar-links a:hover {
+    background-color: white;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 30px;
+  }
+
+  @media screen and (max-width: 393px) {
+    .topbar-links a {
+      padding: 5px;
+    }
+  }
+
+
+a {color: white;text-decoration: none;font-weight: bold;padding: 10px 30px;}
+
+.blogbox{display: flex;width: 90%; background-color: white;color: black;margin:100px;}
+.pics {flex: 25%;margin-right: 20px;}
+.copy {flex:75%;margin: 30px;}
+a{color: black;}
+a:hover{background-color: black;color: white;}
+/* .copy{padding-inline-start: 30px;text-align: left;vertical-align: middle;margin: auto;padding-right: 30px;}
+.pics  */
+h1{text-align: center;font-size: 50px;}
+.introtext{text-align: center;padding: 25px 200px 100px 200px; font-size: 20px;}
+
+@media screen and {max-width: 600px;) {
+ .blogbox {align-content: left;} 
+}
+
+
+
+
+
+/*width: 25%;
+  float: left;
+}
+a{color: black;}
+a:hover{background-color: black;color: white;}
+
+.pics 
+{width: 25%;float: left;}
+.copy
+{width: 75%;float: left;}
+
+@media screen and (max-width: 600px)
+/* For mobile phones: */
+
+
+   
+
+
+
+
+
+  /* Ignore this! Its what I did first */
+  /* .homelink {margin-right: auto;} */
+
+/* 
+li a {
+    display:block;padding:10px 30px;text-align: center;
+}
+
+a:hover {background-color: white;color: #000;} */
+
+/* ul {display: flex;}
+ ul {list-style: none;margin:0;padding: 0;}  */
+
+
